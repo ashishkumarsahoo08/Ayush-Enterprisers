@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahoo Variety Store & Ayush Enterprises | Narayanpur (Ganijanga)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top Government License & Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div>
+        Govt. Approved Fertilizer &amp; Pesticide Dealer (Ayush Enterprises) •
+        Lic: <span id="topFertLic">FERT/2026DD-22368</span> | <span id="topPestLic">INCECTI/2026D-15792</span>
+      </div>
+      <div>
+        Call: <a id="topPhone1" href="tel:+919437735192">9437735192</a> /
+        <a id="topPhone2" href="tel:+919439741194">9439741194</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <div class="brand-badge">SV</div>
+        <div>
+          <h1>Sahoo Variety Store</h1>
+          <p>&amp; Ayush Enterprises • Narayanpur</p>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#our-shop">Our Shop</a>
+        <a href="#catalogue">Products</a>
+        <a href="#paddy-desk">Sell Paddy</a>
+        <a href="#trust">Licenses &amp; Trust</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="admin.html" class="btn btn-outline btn-sm">Owner Login</a>
+        <button id="openCartBtn" class="btn btn-primary btn-sm">
+          Order List (<span id="cartBadge">0</span>)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">Serving Narayanpur (Ganijanga) &amp; Nearby Villages</span>
+        <h2>All Daily Needs, Certified Agri-Inputs &amp; Trusted Paddy Buying.</h2>
+        <p>
+          One reliable village hub combining <strong>Sahoo Variety Store</strong> for daily household goods,
+          <strong>Ayush Enterprises</strong> for government-licensed fertilizers &amp; pesticides, and direct
+          <strong>Paddy Procurement</strong> with honest weighing and fair value.
+        </p>
+        <div class="hero-cta">
+          <a href="#catalogue" class="btn btn-accent">Browse Store &amp; Agri Catalogue</a>
+          <a href="#paddy-desk" class="btn btn-outline">Check Paddy Rate &amp; Sell</a>
+        </div>
+      </div>
+
+      <div class="pillar-cards">
+        <div class="pillar-card">
+          <h3>Sahoo Variety Store</h3>
+          <p>Groceries, biscuits, cold drinks, confectionery, ropes, fishing nets, umbrellas &amp; daily essentials.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>Ayush Enterprises (ସାର ଓ ବିଷ ଦୋକାନ)</h3>
+          <p>Sealed Gromor fertilizers, Urea, Cannon, Contaf Plus, Ustaad &amp; bio-fertilizers under Govt. license.</p>
+        </div>
+        <div class="pillar-card highlight">
+          <h3>Direct Paddy Procurement (<span id="heroPaddyStatus">OPEN</span>)</h3>
+          <p>
+            Current Reference Rate: <strong>₹<span id="heroPaddyRate">2300</span> / Quintal</strong> •
+            Honest scale &amp; trusted payout.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & License Strip -->
+  <section id="trust" class="trust-strip photo-background photo-background--agri">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <small>Fertilizer License</small>
+        <strong id="trustFertLic">FERT/2026DD-22368</strong>
+        <span>Govt. of Odisha Approved</span>
+      </div>
+      <div class="trust-item">
+        <small>Insecticide License</small>
+        <strong id="trustPestLic">INCECTI/2026D-15792</strong>
+        <span>100% Genuine Sealed Stock</span>
+      </div>
+      <div class="trust-item">
+        <small>Paddy Weighing Trust</small>
+        <strong>Calibrated Digital Scale</strong>
+        <span>Transparent value &amp; zero hidden cuts</span>
+      </div>
+      <div class="trust-item">
+        <small>Fast Village Pickup</small>
+        <strong>WhatsApp Order List</strong>
+        <span>Send list ahead &amp; skip counter wait</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Shop Photos -->
+  <section id="our-shop" class="section shop-gallery photo-background photo-background--signboard">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Visit Our Shop</h2>
+          <p style="font-size: 0.9rem;">
+            A look inside Sahoo Variety Store &amp; Ayush Enterprises in Narayanpur.
+          </p>
+        </div>
+      </div>
+      <div class="shop-gallery-grid">
+        <figure class="shop-gallery-card">
+          <img src="images/storefront.png" alt="Sahoo Variety Store storefront in Narayanpur" loading="lazy" />
+          <figcaption>Our storefront</figcaption>
+        </figure>
+        <figure class="shop-gallery-card">
+          <img src="images/shop-interior.jpg" alt="Shelves stocked with agricultural products inside the shop" loading="lazy" />
+          <figcaption>Inside the shop</figcaption>
+        </figure>
+        <figure class="shop-gallery-card">
+          <img src="images/agri-products.jpg" alt="Fertilizers and crop-care products on display" loading="lazy" />
+          <figcaption>Fertilizers &amp; crop care</figcaption>
+        </figure>
+        <figure class="shop-gallery-card">
+          <img src="images/ayush-signboard.jpg" alt="Ayush Enterprises agricultural inputs signboard" loading="lazy" />
+          <figcaption>Ayush Enterprises</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalogue -->
+  <section id="catalogue" class="section photo-background photo-background--interior">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Store &amp; Agriculture Catalogue</h2>
+          <p style="font-size: 0.9rem;">
+            Add items to your list and send directly to our shop on WhatsApp.
+          </p>
+        </div>
+
+        <div class="tabs" id="divisionTabs">
+          <button class="tab-btn active" data-division="all">All Items</button>
+          <button class="tab-btn" data-division="variety_store">Variety Store</button>
+          <button class="tab-btn" data-division="agri_inputs">Fertilizers &amp; Pesticides</button>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <input type="text" id="searchInput" placeholder="Search product name or brand..." />
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+        </select>
+        <select id="sortFilter">
+          <option value="featured">Sort: Featured</option>
+          <option value="price_asc">Price: Low to High</option>
+          <option value="price_desc">Price: High to Low</option>
+        </select>
+        <label style="display:flex; align-items:center; gap:0.4rem; font-size:0.85rem; cursor:pointer;">
+          <input type="checkbox" id="inStockFilter" style="width:auto;" /> In-Stock Only
+        </label>
+      </div>
+
+      <div id="productGrid" class="product-grid"></div>
+    </div>
+  </section>
+
+  <!-- Paddy Procurement & Farmer Trust Section -->
+  <section id="paddy-desk" class="section paddy-section photo-background photo-background--agri">
+    <div class="container paddy-grid">
+      <div>
+        <span class="pill" style="background:#fde68a; color:#78350f; border:none;">
+          Farmer Paddy Procurement Desk (ଧାନ କ୍ରୟ କେନ୍ଦ୍ର)
+        </span>
+        <h2 style="font-size:1.85rem; margin-bottom:0.75rem;">
+          Sell Your Paddy with Full Trust &amp; Fair Value
+        </h2>
+        <p id="paddyNoteText" style="margin-bottom:1.25rem;">
+          Transparent digital weighing, fair grade assessment, and prompt settlement for local farmers.
+        </p>
+
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--border); padding-bottom:0.75rem; margin-bottom:1rem;">
+            <span style="font-size:0.88rem; color:var(--muted);">Current Reference Rate</span>
+            <strong style="color:var(--primary); font-size:1.1rem;">₹<span id="calcRateDisplay">2300</span> / Quintal</strong>
+          </div>
+          <div class="form-group">
+            <label for="quintalInput">Enter Your Paddy Quantity (Quintals)</label>
+            <input type="number" id="quintalInput" min="1" value="10" />
+          </div>
+          <div class="calc-result">
+            <span>Estimated Payout Value:</span>
+            <strong id="estimatedPaddyValue">₹23,000</strong>
+          </div>
+          <p style="font-size:0.74rem; color:var(--muted); margin-top:0.65rem;">
+            *Final payout is confirmed after physical moisture and grain quality inspection at our Narayanpur center.
+          </p>
+        </div>
+      </div>
+
+      <!-- Farmer Booking & General Enquiry Form -->
+      <div class="card">
+        <h3 style="margin-bottom:0.25rem;">Book Paddy Weighing or Send Enquiry</h3>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">
+          Leave your details and we will call you back to confirm timing or stock availability.
+        </p>
+
+        <form id="enquiryForm">
+          <div class="form-group">
+            <label>Request Type</label>
+            <select id="enqType">
+              <option value="paddy_sell">Sell Paddy (Book Weighing)</option>
+              <option value="bulk_agri">Fertilizer / Pesticide Requirement</option>
+              <option value="general">General Variety Store Enquiry</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name *</label>
+              <input type="text" id="enqName" required placeholder="e.g. Ramesh Behera" />
+            </div>
+            <div class="form-group">
+              <label>Mobile Number *</label>
+              <input type="tel" id="enqPhone" required placeholder="10-digit mobile" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Village / Landmark</label>
+            <input type="text" id="enqVillage" placeholder="e.g. Narayanpur, Ganijanga" />
+          </div>
+          <div class="form-group">
+            <label>Details / Quantity</label>
+            <textarea id="enqMessage" rows="3" placeholder="Mention quintals of paddy or items needed..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Submit Request to Shop</button>
+          <p id="enqFeedback" style="font-size:0.82rem; margin-top:0.65rem; font-weight:600;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section photo-background photo-background--signboard">
+    <div class="container" style="max-width:850px;">
+      <h2 style="margin-bottom:1.25rem;">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h4>1. Are your fertilizers and pesticides government-approved?</h4>
+          <p>Yes. Ayush Enterprises operates under valid Odisha Agriculture Department licenses (FERT/2026DD-22368 &amp; INCECTI/2026D-15792) and sells only sealed, genuine company stock[cite: 3].</p>
+        </div>
+        <div class="faq-item">
+          <h4>2. How does the WhatsApp Order List work?</h4>
+          <p>Select your groceries or agricultural products from the catalogue, open your Order List, enter your name and village, and click "Send Order on WhatsApp". Your itemized list opens directly in WhatsApp.</p>
+        </div>
+        <div class="faq-item">
+          <h4>3. How do farmers sell paddy to your store?</h4>
+          <p>Use the Paddy Value Estimator above to check expected value and book a weighing slot, or visit our Narayanpur shop[cite: 3] directly for transparent digital weighing and fair-value settlement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer photo-background photo-background--storefront">
+    <div class="container footer-grid">
+      <div>
+        <h4>Sahoo Variety Store &amp; Ayush Enterprises</h4>
+        <p id="footerTagline">Daily Needs, Govt. Approved Fertilizers &amp; Fair-Value Paddy Procurement</p>
+        <p style="margin-top:0.6rem; font-size:0.78rem;">
+          Fert. Lic: <span id="footFertLic">FERT/2026DD-22368</span><br />
+          Insecticide Lic: <span id="footPestLic">INCECTI/2026D-15792</span>
+        </p>
+      </div>
+      <div>
+        <h4>Location &amp; Contact</h4>
+        <p>
+          <a id="footerAddress" class="location-link" href="https://www.google.com/maps/search/?api=1&amp;query=3CM5%2BMWX%2C%20Narayanpur%2C%20Ganijang%2C%20Odisha%20756113" target="_blank" rel="noopener noreferrer">
+            <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
+            <span id="footerAddressText">3CM5+MWX, Narayanpur, Ganijang, Odisha 756113</span>
+          </a>
+        </p>
+        <p style="margin-top:0.4rem;">Phone: <span id="footerPhones">9437735192 / 9439741194</span></p>
+      </div>
+      <div>
+        <h4>Store Management</h4>
+        <p style="margin-bottom:0.6rem;">Shop owner access to update product prices, stock availability, orders, and daily paddy rates.</p>
+        <a href="admin.html">Open Owner Admin Dashboard →</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Detail Modal -->
+  <div id="productModal" class="overlay">
+    <div class="modal">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+        <span id="modalCat" class="product-cat"></span>
+        <button id="closeModalBtn" class="btn btn-outline btn-sm">✕</button>
+      </div>
+      <div id="modalImageWrap" style="margin-bottom:0.85rem;"></div>
+      <h3 id="modalTitle" style="margin-bottom:0.25rem;"></h3>
+      <p id="modalMeta" class="product-meta" style="margin-bottom:0.75rem;"></p>
+      <p id="modalDesc" style="font-size:0.9rem; color:#44403c; margin-bottom:1.25rem;"></p>
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border); padding-top:1rem;">
+        <span id="modalPrice" class="price"></span>
+        <button id="modalAddBtn" class="btn btn-primary">+ Add to Order List</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide-over Cart Drawer -->
+  <div id="cartDrawer" class="overlay">
+    <div class="drawer">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); padding-bottom:0.85rem;">
+          <h3>Your Store Order List</h3>
+          <button id="closeCartBtn" class="btn btn-outline btn-sm">✕</button>
+        </div>
+        <div id="cartItemsContainer"></div>
+      </div>
+
+      <form id="checkoutForm" style="border-top:1px solid var(--border); padding-top:1rem;">
+        <div style="display:flex; justify-content:space-between; font-weight:800; font-size:1.05rem; margin-bottom:0.85rem;">
+          <span>Estimated Total:</span>
+          <span id="cartTotalDisplay">₹0</span>
+        </div>
+        <div class="form-group">
+          <input type="text" id="orderCustName" required placeholder="Your Full Name *" />
+        </div>
+        <div class="form-group">
+          <input type="tel" id="orderCustPhone" required placeholder="Mobile Number *" />
+        </div>
+        <div class="form-group">
+          <input type="text" id="orderCustVillage" placeholder="Village / Pickup Note (Optional)" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">
+          Send Order on WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Embedded Complete JavaScript -->
+  <script>
+    const STORAGE_KEYS = {
+      SETTINGS: 'svs_settings_v1',
+      CATEGORIES: 'svs_categories_v1',
+      PRODUCTS: 'svs_products_v1',
+      ORDERS: 'svs_orders_v1',
+      ENQUIRIES: 'svs_enquiries_v1'
+    };
+
+    const DEFAULT_SETTINGS = {
+      storeName: 'Sahoo Variety Store & Ayush Enterprises',
+      tagline: 'Daily Needs, Govt. Approved Fertilizers & Fair-Value Paddy Procurement',
+      address: '3CM5+MWX, Narayanpur, Ganijang, Odisha 756113',
+      phonePrimary: '9437735192',
+      phoneSecondary: '9439741194',
+      whatsappNumber: '919437735192',
+      fertLicense: 'FERT/2026DD-22368',
+      insecticideLicense: 'INCECTI/2026D-15792',
+      paddyRate: 2300,
+      paddyActive: true,
+      paddyNote: 'Transparent digital weighing, fair grade assessment, and prompt settlement for local farmers.'
+    };
+
+    const DEFAULT_CATEGORIES = [
+      { id: 'cat-1', name: 'Groceries & Daily Needs', division: 'variety_store' },
+      { id: 'cat-2', name: 'Snacks, Biscuits & Cold Drinks', division: 'variety_store' },
+      { id: 'cat-3', name: 'Household, Ropes & Fishing Nets', division: 'variety_store' },
+      { id: 'cat-4', name: 'Fertilizers (Gromor / Urea)', division: 'agri_inputs' },
+      { id: 'cat-5', name: 'Insecticides & Pesticides', division: 'agri_inputs' },
+      { id: 'cat-6', name: 'Fungicides & Bio-Stimulants', division: 'agri_inputs' }
+    ];
+
+    const DEFAULT_PRODUCTS = [
+      { id: 'p-1', categoryId: 'cat-4', name: 'Gromor 28-28-0 Complex Fertilizer', brand: 'Coromandel', unit: '50 kg Bag', price: 1750, inStock: true, featured: true, description: 'Balanced Nitrogen & Phosphate complex fertilizer for strong paddy root and tiller development.', image: '' },
+      { id: 'p-2', categoryId: 'cat-5', name: 'Cannon Insecticide', brand: 'Nagarjuna', unit: '500 ml Bottle', price: 480, inStock: true, featured: true, description: 'Effective broad-spectrum insecticide for stem borer and leaf folder control[cite: 3].', image: '' },
+      { id: 'p-3', categoryId: 'cat-6', name: 'Contaf Plus Systemic Fungicide', brand: 'Tata Rallis', unit: '500 ml Bottle', price: 420, inStock: true, featured: true, description: 'Trusted systemic fungicide for sheath blight and blast protection in paddy[cite: 3].', image: '' },
+      { id: 'p-4', categoryId: 'cat-5', name: 'Ustaad Insecticide', brand: 'UPL', unit: '250 ml Bottle', price: 310, inStock: true, featured: false, description: 'Fast-acting crop protection solution approved under Odisha agriculture standards[cite: 3].', image: '' },
+      { id: 'p-5', categoryId: 'cat-6', name: 'MycoHil Mycorrhizal Bio-Fertilizer', brand: 'MycoHil', unit: '1 Box', price: 260, inStock: true, featured: false, description: 'Enhances nutrient uptake and drought resilience in paddy and vegetable crops[cite: 4].', image: '' },
+      { id: 'p-6', categoryId: 'cat-1', name: 'Daily Kitchen Grocery Essentials Pack', brand: 'Sahoo Store Selection', unit: 'Assorted', price: 250, inStock: true, featured: true, description: 'Cooking oil, pulses, spices, tea, and everyday household staples available fresh[cite: 1].', image: '' },
+      { id: 'p-7', categoryId: 'cat-3', name: 'Heavy-Duty Nylon Fishing Net & Rope', brand: 'Standard Rural Grade', unit: '1 Bundle', price: 350, inStock: true, featured: false, description: 'Durable fishing nets and strong multipurpose nylon ropes stocked in-store[cite: 1].', image: '' },
+      { id: 'p-8', categoryId: 'cat-3', name: 'All-Weather Folding Umbrella', brand: 'Monsoon Guard', unit: '1 Piece', price: 240, inStock: true, featured: false, description: 'Sturdy wind-resistant umbrella for farm and daily travel.', image: '' }
+    ];
+
+    const StoreDB = {
+      getSettings() { const s = localStorage.getItem(STORAGE_KEYS.SETTINGS); return s ? JSON.parse(s) : { ...DEFAULT_SETTINGS }; },
+      getCategories() {
+        const s = localStorage.getItem(STORAGE_KEYS.CATEGORIES);
+        if (!s) { localStorage.setItem(STORAGE_KEYS.CATEGORIES, JSON.stringify(DEFAULT_CATEGORIES)); return [...DEFAULT_CATEGORIES]; }
+        return JSON.parse(s);
+      },
+      getProducts() {
+        const s = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
+        if (!s) { localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(DEFAULT_PRODUCTS)); return [...DEFAULT_PRODUCTS]; }
+        return JSON.parse(s);
+      },
+      getOrders() { return JSON.parse(localStorage.getItem(STORAGE_KEYS.ORDERS) || '[]'); },
+      saveOrders(l) { localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(l)); },
+      getEnquiries() { return JSON.parse(localStorage.getItem(STORAGE_KEYS.ENQUIRIES) || '[]'); },
+      saveEnquiries(l) { localStorage.setItem(STORAGE_KEYS.ENQUIRIES, JSON.stringify(l)); }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const settings = StoreDB.getSettings();
+      const categories = StoreDB.getCategories();
+      const products = StoreDB.getProducts();
+
+      let activeDivision = 'all';
+      let cart = [];
+
+      document.getElementById('topFertLic').textContent = settings.fertLicense;
+      document.getElementById('topPestLic').textContent = settings.insecticideLicense;
+      document.getElementById('trustFertLic').textContent = settings.fertLicense;
+      document.getElementById('trustPestLic').textContent = settings.insecticideLicense;
+      document.getElementById('footFertLic').textContent = settings.fertLicense;
+      document.getElementById('footPestLic').textContent = settings.insecticideLicense;
+
+      document.getElementById('topPhone1').textContent = settings.phonePrimary;
+      document.getElementById('topPhone1').href = `tel:+91${settings.phonePrimary}`;
+      document.getElementById('topPhone2').textContent = settings.phoneSecondary;
+      document.getElementById('topPhone2').href = `tel:+91${settings.phoneSecondary}`;
+      document.getElementById('footerPhones').textContent = `${settings.phonePrimary} / ${settings.phoneSecondary}`;
+      document.getElementById('footerAddressText').textContent =
+        settings.address === 'Narayanpur (Ganijanga), Odisha' ? DEFAULT_SETTINGS.address : settings.address;
+      document.getElementById('footerTagline').textContent = settings.tagline;
+
+      document.getElementById('heroPaddyRate').textContent = settings.paddyRate;
+      document.getElementById('calcRateDisplay').textContent = settings.paddyRate;
+      document.getElementById('heroPaddyStatus').textContent = settings.paddyActive ? 'OPEN' : 'SEASONAL';
+      document.getElementById('paddyNoteText').textContent = settings.paddyNote;
+
+      const categoryFilter = document.getElementById('categoryFilter');
+      function populateCategories() {
+        categoryFilter.innerHTML = '<option value="all">All Categories</option>';
+        categories.filter(c => activeDivision === 'all' || c.division === activeDivision).forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c.id;
+          opt.textContent = c.name;
+          categoryFilter.appendChild(opt);
+        });
+      }
+      populateCategories();
+
+      const productGrid = document.getElementById('productGrid');
+      function renderProducts() {
+        const query = document.getElementById('searchInput').value.trim().toLowerCase();
+        const selectedCat = categoryFilter.value;
+        const sortMode = document.getElementById('sortFilter').value;
+        const inStockOnly = document.getElementById('inStockFilter').checked;
+        const catMap = Object.fromEntries(categories.map(c => [c.id, c]));
+
+        let filtered = products.filter(p => {
+          const cat = catMap[p.categoryId];
+          if (activeDivision !== 'all' && cat?.division !== activeDivision) return false;
+          if (selectedCat !== 'all' && p.categoryId !== selectedCat) return false;
+          if (inStockOnly && !p.inStock) return false;
+          if (query) {
+            const match = p.name.toLowerCase().includes(query) || (p.brand && p.brand.toLowerCase().includes(query));
+            if (!match) return false;
+          }
+          return true;
+        });
+
+        if (sortMode === 'price_asc') filtered.sort((a, b) => (a.price || 999999) - (b.price || 999999));
+        else if (sortMode === 'price_desc') filtered.sort((a, b) => (b.price || 0) - (a.price || 0));
+        else filtered.sort((a, b) => Number(b.featured) - Number(a.featured));
+
+        if (filtered.length === 0) {
+          productGrid.innerHTML = `<div class="card" style="grid-column:1/-1; text-align:center;"><p><strong>No matching items found.</strong></p></div>`;
+          return;
+        }
+
+        productGrid.innerHTML = filtered.map(p => {
+          const catName = catMap[p.categoryId]?.name || 'Store Item';
+          const thumbHtml = p.image ? `<img src="${p.image}" alt="${p.name}" />` : `<div class="product-thumb-placeholder">${catName}</div>`;
+          return `
+            <article class="product-card">
+              <div>
+                <div class="product-thumb" onclick="openProductModal('${p.id}')">
+                  ${thumbHtml}
+                  <span class="stock-badge ${p.inStock ? 'stock-in' : 'stock-out'}">${p.inStock ? 'In Stock' : 'Out of Stock'}</span>
+                </div>
+                <div class="product-body">
+                  <div class="product-cat">${catName}</div>
+                  <h3 class="product-title" onclick="openProductModal('${p.id}')">${p.name}</h3>
+                  <p class="product-meta">${p.brand ? p.brand + ' • ' : ''}Unit: ${p.unit}</p>
+                </div>
+              </div>
+              <div class="product-footer">
+                <span class="price">${p.price ? '₹' + p.price : 'Ask Rate'}</span>
+                <button class="btn btn-primary btn-sm" ${!p.inStock ? 'disabled' : ''} onclick="addToCart('${p.id}')">${p.inStock ? '+ Add' : 'Unavailable'}</button>
+              </div>
+            </article>
+          `;
+        }).join('');
+      }
+
+      document.querySelectorAll('#divisionTabs .tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#divisionTabs .tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeDivision = btn.dataset.division;
+          populateCategories();
+          renderProducts();
+        });
+      });
+
+      document.getElementById('searchInput').addEventListener('input', renderProducts);
+      categoryFilter.addEventListener('change', renderProducts);
+      document.getElementById('sortFilter').addEventListener('change', renderProducts);
+      document.getElementById('inStockFilter').addEventListener('change', renderProducts);
+
+      const productModal = document.getElementById('productModal');
+      window.openProductModal = function (id) {
+        const p = products.find(item => item.id === id);
+        if (!p) return;
+        const cat = categories.find(c => c.id === p.categoryId);
+        document.getElementById('modalCat').textContent = cat ? cat.name : 'Store Item';
+        document.getElementById('modalTitle').textContent = p.name;
+        document.getElementById('modalMeta').textContent = `${p.brand ? 'Brand: ' + p.brand + ' • ' : ''}Pack Size: ${p.unit}`;
+        document.getElementById('modalDesc').textContent = p.description || 'Available at Sahoo Variety Store & Ayush Enterprises.';
+        document.getElementById('modalPrice').textContent = p.price ? `₹${p.price}` : 'Confirm Rate at Store';
+        document.getElementById('modalImageWrap').innerHTML = p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%; height:200px; object-fit:cover; border-radius:10px;" />` : '';
+
+        const addBtn = document.getElementById('modalAddBtn');
+        addBtn.disabled = !p.inStock;
+        addBtn.textContent = p.inStock ? '+ Add to Order List' : 'Currently Out of Stock';
+        addBtn.onclick = () => { addToCart(p.id); productModal.classList.remove('open'); cartDrawer.classList.add('open'); };
+        productModal.classList.add('open');
+      };
+      document.getElementById('closeModalBtn').onclick = () => productModal.classList.remove('open');
+
+      const cartDrawer = document.getElementById('cartDrawer');
+      document.getElementById('openCartBtn').onclick = () => cartDrawer.classList.add('open');
+      document.getElementById('closeCartBtn').onclick = () => cartDrawer.classList.remove('open');
+
+      window.addToCart = function (id) {
+        const product = products.find(p => p.id === id);
+        if (!product || !product.inStock) return;
+        const existing = cart.find(c => c.product.id === id);
+        if (existing) existing.qty += 1;
+        else cart.push({ product, qty: 1 });
+        renderCart();
+      };
+
+      window.changeCartQty = function (id, delta) {
+        cart = cart.map(item => item.product.id === id ? { ...item, qty: item.qty + delta } : item).filter(item => item.qty > 0);
+        renderCart();
+      };
+
+      function renderCart() {
+        const totalCount = cart.reduce((sum, i) => sum + i.qty, 0);
+        const totalAmount = cart.reduce((sum, i) => sum + (i.product.price || 0) * i.qty, 0);
+        document.getElementById('cartBadge').textContent = totalCount;
+        document.getElementById('cartTotalDisplay').textContent = `₹${totalAmount.toFixed(2)}`;
+
+        const container = document.getElementById('cartItemsContainer');
+        if (cart.length === 0) {
+          container.innerHTML = '<p style="color:var(--muted); font-size:0.88rem; padding:2rem 0; text-align:center;">Your order list is empty.</p>';
+          return;
+        }
+        container.innerHTML = cart.map(item => `
+          <div class="cart-row">
+            <div>
+              <strong style="font-size:0.88rem;">${item.product.name}</strong>
+              <div style="font-size:0.75rem; color:var(--muted);">${item.product.unit} • ${item.product.price ? '₹' + item.product.price : 'Ask Rate'}</div>
+            </div>
+            <div class="qty-controls">
+              <button type="button" class="btn btn-outline btn-sm" onclick="changeCartQty('${item.product.id}', -1)">-</button>
+              <strong style="min-width:18px; text-align:center; font-size:0.85rem;">${item.qty}</strong>
+              <button type="button" class="btn btn-outline btn-sm" onclick="changeCartQty('${item.product.id}', 1)">+</button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      document.getElementById('checkoutForm').addEventListener('submit', e => {
+        e.preventDefault();
+        if (cart.length === 0) return;
+        const name = document.getElementById('orderCustName').value.trim();
+        const phone = document.getElementById('orderCustPhone').value.trim();
+        const village = document.getElementById('orderCustVillage').value.trim();
+        const totalAmount = cart.reduce((sum, i) => sum + (i.product.price || 0) * i.qty, 0);
+
+        const orders = StoreDB.getOrders();
+        orders.unshift({
+          id: 'ORD-' + Date.now().toString().slice(-5),
+          customerName: name, customerPhone: phone, village,
+          items: cart.map(c => ({ name: c.product.name, unit: c.product.unit, qty: c.qty, price: c.product.price })),
+          totalAmount, status: 'pending', createdAt: new Date().toLocaleString()
+        });
+        StoreDB.saveOrders(orders);
+
+        const lines = cart.map((c, idx) => `${idx + 1}. *${c.product.name}* (${c.product.unit}) x ${c.qty} = ${c.product.price ? '₹' + c.product.price * c.qty : 'Confirm Rate'}`);
+        const message = [`*New Order — ${settings.storeName}*`, `Customer: ${name}`, `Phone: ${phone}`, village ? `Village: ${village}` : '', `--------------------------`, ...lines, `--------------------------`, `*Estimated Total: ₹${totalAmount.toFixed(2)}*`, `Please confirm availability and pickup time.`].filter(Boolean).join('\n');
+        window.open(`https://wa.me/${settings.whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+      });
+
+      const quintalInput = document.getElementById('quintalInput');
+      function updatePaddyCalc() {
+        const q = parseFloat(quintalInput.value) || 0;
+        document.getElementById('estimatedPaddyValue').textContent = `₹${(q * settings.paddyRate).toLocaleString('en-IN')}`;
+      }
+      quintalInput.addEventListener('input', updatePaddyCalc);
+      updatePaddyCalc();
+
+      document.getElementById('enquiryForm').addEventListener('submit', e => {
+        e.preventDefault();
+        const type = document.getElementById('enqType').value;
+        const name = document.getElementById('enqName').value.trim();
+        const phone = document.getElementById('enqPhone').value.trim();
+        const village = document.getElementById('enqVillage').value.trim();
+        const msg = document.getElementById('enqMessage').value.trim();
+
+        const enquiries = StoreDB.getEnquiries();
+        enquiries.unshift({
+          id: 'ENQ-' + Date.now().toString().slice(-5),
+          type, name, phone, village,
+          message: msg || (type === 'paddy_sell' ? `Approx ${quintalInput.value} quintals paddy ready.` : 'Store enquiry'),
+          resolved: false, createdAt: new Date().toLocaleString()
+        });
+        StoreDB.saveEnquiries(enquiries);
+
+        e.target.reset();
+        const feedback = document.getElementById('enqFeedback');
+        feedback.style.color = 'var(--success)';
+        feedback.textContent = 'Thank you! Your request has been saved for the shop owner.';
+      });
+
+      renderProducts();
+      renderCart();
+    });
+  </script>
+</body>
+</html>
