@@ -1,2 +1,2 @@
 # Smart-Campus
-Smart Campus project Development
+project Development
