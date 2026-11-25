@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('adminLoginForm').addEventListener('submit', e => {
     e.preventDefault();
     const pass = document.getElementById('adminPassInput').value;
-    if (pass === 'sahoo2026') {
+    if (pass === 'Aayush0408') {
       sessionStorage.setItem(STORAGE_KEYS.ADMIN_AUTH, 'true');
       checkAuth();
     } else {
-      document.getElementById('loginError').textContent = 'Invalid password. Hint: sahoo2026';
+      document.getElementById('loginError').textContent = 'Invalid password. ';
     }
   });
 
